@@ -3,6 +3,7 @@
     --white: hsl(0, 0%, 100%);
     --gray500: hsl(0, 0%, 42%);
     --gray950: hsl(0, 0%, 7%);
+    --purple: hsl(259, 79%, 48%);
 
 }
 
@@ -56,6 +57,11 @@ body{
 .main-title{
     font-size: 25px;
     font-weight: 800;
+}
+
+.main-title:hover{
+    cursor: pointer;
+    color: var(--purple)
 }
 
 .text{
